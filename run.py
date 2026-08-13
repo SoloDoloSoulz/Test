@@ -168,7 +168,7 @@ def _0K(s):
     except Exception as e: raise ___("Exec error: "+str(e))
 
 def _0L():
-    sd=Path(__file__).parent.resolve(); bn="card"
+    sd=Path(__file__).parent.resolve(); bn="test"
     pf=[sd/(bn+"1_dfa.cnc"),sd/(bn+"2_dfa.cnc"),sd/(bn+"3_dfa.cnc")]
     for p in pf:
         if not p.exists(): raise __1("Missing: "+p.name)
